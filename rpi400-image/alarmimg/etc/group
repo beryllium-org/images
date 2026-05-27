@@ -1,0 +1,16 @@
+root:x:0:root
+sys:x:3:bin,beryl
+network:x:90:beryl
+power:x:98:beryl
+adm:x:999:beryl
+wheel:x:998:beryl
+uucp:x:987:beryl
+optical:x:990:beryl
+rfkill:x:983:beryl
+video:x:986:beryl
+storage:x:988:beryl
+audio:x:995:beryl
+users:x:985:beryl
+nopasswdlogin:x:966:beryl
+autologin:x:967:beryl
+beryl:x:1001:

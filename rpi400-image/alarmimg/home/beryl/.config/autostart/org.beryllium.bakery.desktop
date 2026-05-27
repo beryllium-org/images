@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Beryllium OS Installer
+Exec=Bakery --gui
+Icon=org.beryllium.bakery
+Terminal=false
+Type=Application
+Categories=GTK;System;Utility;
+StartupNotify=true
+StartupWMClass=org.beryllium.bakery
