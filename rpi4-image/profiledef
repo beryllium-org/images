@@ -4,7 +4,7 @@ from time import strftime
 img_version = strftime("%Y-%m-%d")
 edition = "Cinnamon"
 arch = "aarch64"  # aarch64, armv7h, riscv64
-img_name = "Beryllium-ARM-RPI400-" + img_version
+img_name = "Beryllium-ARM-RPI4-" + img_version
 install_dir = "arch"
 fs = "btrfs"  # ext4 or btrfs
 img_type = "image"  # image (img.xz) or rootfs (tar.gz) rootfs dont worky yet
@@ -14,9 +14,9 @@ has_uefi = False
 # If you use btrfs you need add `rootflags=subvol=@ rootfstype=btrfs`
 # And remove `rootfstype=ext4`
 
-cmdline = "console=tty1 rootwait rw init=/sbin/init rootflags=subvol=@ rootfstype=btrfs"
+cmdline = "rootwait rw init=/sbin/init rootflags=subvol=@ rootfstype=btrfs cma=128M plymouth.ignore-serial-consoles quiet splash loglevel=3"
 
-configtxt = """
+configtxt = f"""
 ## /etc/default/u-boot - configuration file
 
 U_BOOT_IS_SETUP='true'
@@ -25,19 +25,21 @@ U_BOOT_IS_SETUP='true'
 #U_BOOT_DEFAULT="l0"
 #U_BOOT_PROMPT="1"
 #U_BOOT_ENTRIES="all"
-#U_BOOT_MENU_LABEL="Beryllium"
-U_BOOT_PARAMETERS="rootwait rw init=/sbin/init rootflags=subvol=@ rootfstype=btrfs"
+U_BOOT_MENU_LABEL="Beryllium"
+U_BOOT_PARAMETERS="{cmdline}"
 #U_BOOT_ROOT=""
 #U_BOOT_TIMEOUT="50"
 
+U_BOOT_KERNEL_OVERRIDES="kernel8.img"
+
 # Device tree file (will be searched and copied to /boot if U_BOOT_COPY_DTB_TO_BOOT=true)
-U_BOOT_FDT="bcm2711-rpi-400.dtb"
+#U_BOOT_FDT="bcm2711-rpi-400.dtb"
 
 # Device tree overlays
 #U_BOOT_FDT_OVERLAYS=""
 
 #U_BOOT_SYNC_DTBS="true"
-U_BOOT_COPY_DTB_TO_BOOT="true"
+U_BOOT_COPY_DTB_TO_BOOT="false"
 """
 
 partition_table = lambda img_size, fs: {
@@ -46,7 +48,7 @@ partition_table = lambda img_size, fs: {
 }
 
 partition_suffix = lambda config_dir, disk: [
-    ["mkfs.fat", "-v", "-F12", "-n", "BOOT", disk + "p1"],
+    ["mkfs.fat", "-v", "-F32", "-n", "BOOT", disk + "p1"],
 ]
 
 perms = {
@@ -88,11 +90,12 @@ partition(
 )
 if not os.path.exists(mnt_dir):
     os.mkdir(mnt_dir)
-subprocess.run("mount " + ldev + "p2 " + mnt_dir + "/boot", shell=True)
+subprocess.run("mount " + ldev + "p1 " + mnt_dir + "/boot", shell=True)
 copyfiles(cfg["install_dir"], mnt_dir, retainperms=True)
 if not cfg["has_uefi"]:
     create_extlinux_conf(mnt_dir, cfg["configtxt"], cfg["cmdline"], ldev)
 create_fstab(cfg["fs"], ldev)
+u_boot_update(mnt_dir, cfg["configtxt"])
 unmount(cfg["img_backend"], mnt_dir, ldev)
 cleanup(cfg["img_backend"])
 if args.no_compress:
@@ -101,4 +104,6 @@ else:
     compressimage(cfg["img_name"])
 cleanup(cfg["work_dir"])
 """
+
+
 

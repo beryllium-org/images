@@ -19,8 +19,8 @@ beryllium-skel
 sudo
 polkit
 bluez-utils
-linux
-linux-headers
+linux-rpi
+linux-rpi-headers
 dracut
 mesa
 vulkan-broadcom
@@ -52,6 +52,8 @@ cpupower
 less
 lshw
 expect
+plymouth
+rpi4-boot
 
 # ======
 # BAKERY
