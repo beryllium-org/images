@@ -122,7 +122,7 @@ jobs:
             git wget arch-install-scripts unzip gptfdisk xz jq which multipath-tools docker openssh github-cli
 
       - name: Set up QEMU
-        uses: docker/setup-qemu-action@v3
+        uses: docker/setup-qemu-action@v4.1.0
 
       - name: Force Arch RISC-V mirror
         run: |
