@@ -13,6 +13,8 @@ lm_sensors
 archlinux-keyring
 archlinuxarm-keyring
 btrfs-progs
+snapper
+btrfs-assistant
 bluez
 bash
 bash-completion
