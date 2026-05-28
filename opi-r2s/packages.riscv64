@@ -6,6 +6,7 @@ base
 base-devel
 yay
 networkmanager
+firewalld
 nano
 lm_sensors
 archlinux-keyring
