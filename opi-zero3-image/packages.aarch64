@@ -3,6 +3,7 @@
 # ====
 
 base
+plymouth
 base-devel
 yay
 networkmanager
