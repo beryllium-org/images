@@ -57,6 +57,7 @@ cpupower
 less
 lshw
 expect
+plymouth
 
 # ======
 # BAKERY

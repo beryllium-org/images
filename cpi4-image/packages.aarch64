@@ -60,6 +60,7 @@ expect
 firmware-cpi4
 cpi4-post-install
 aic8800-dkms
+plymouth
 
 # ======
 # BAKERY

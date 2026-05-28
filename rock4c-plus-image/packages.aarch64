@@ -53,6 +53,7 @@ less
 lshw
 expect
 dracut
+plymouth
 
 # ======
 # BAKERY

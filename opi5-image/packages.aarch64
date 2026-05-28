@@ -58,6 +58,7 @@ less
 lshw
 expect
 ap6275p-firmware
+plymouth
 
 # ======
 # BAKERY

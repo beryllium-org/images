@@ -53,6 +53,8 @@ less
 lshw
 expect
 u-boot-update
+plymouth
+
 # ======
 # BAKERY
 # ======

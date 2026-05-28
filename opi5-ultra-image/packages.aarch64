@@ -58,6 +58,7 @@ lshw
 expect
 ap6611s-firmware
 bcmdhd-sdio-dkms
+plymouth
 
 # ======
 # BAKERY

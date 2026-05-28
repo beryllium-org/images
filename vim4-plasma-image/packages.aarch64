@@ -51,6 +51,7 @@ update-extlinux
 less
 lshw
 expect
+plymouth
 
 # ======
 # BAKERY

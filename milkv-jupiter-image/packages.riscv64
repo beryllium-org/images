@@ -57,6 +57,8 @@ milkv-jupiter-post-install
 dracut
 k1-img-gpu
 mesa-pvr-ddk242
+plymouth
+
 # ======
 # BAKERY
 # ======

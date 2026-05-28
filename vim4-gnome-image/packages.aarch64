@@ -53,6 +53,7 @@ lshw
 dnsmasq
 expect
 dracut
+plymouth
 
 # ======
 # BAKERY
