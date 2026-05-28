@@ -1,0 +1,94 @@
+# ====
+# CORE
+# ====
+
+base
+base-devel
+yay
+networkmanager
+network-manager-applet
+nano
+lm_sensors
+archlinux-keyring
+archlinuxarm-keyring
+btrfs-progs
+bluez
+bash
+bash-completion
+beryllium-skel
+sudo
+polkit
+bluez-utils
+linux-rpi
+linux-rpi-headers
+dracut
+mesa
+vulkan-broadcom
+libdrm
+bred-skel-default
+uboot-tools
+linux-firmware
+linux-firmware-whence
+lsb-release
+xf86-video-fbdev
+xorg-server
+beryllium-os-release
+parted
+gvfs
+pipewire-pulse
+#pipewire-media-session
+pipewire-alsa
+pipewire-jack
+beryllium-keyring
+beryllium-logo
+beryllium-zram-defaults
+beryllium-mirrorlist
+dosfstools
+e2fsprogs
+librewolf-bin
+fastfetch
+blueman
+cpupower
+less
+lshw
+expect
+plymouth
+rpi5-boot
+
+# ======
+# BAKERY
+# ======
+
+openbsd-netcat
+bakery
+bakery-gui
+bakery-tui
+python-psutil
+
+# ===
+# GUI
+# ===
+cinnamon
+gnome-terminal
+lightdm
+xorg
+hicolor-icon-theme
+lightdm-slick-greeter
+noto-fonts
+gedit
+gnome-system-monitor
+mint-themes
+mint-y-icons
+# mintlocale
+engrampa
+libmd
+libbsd
+beryllium-multilib
+beryllium-sysreport
+beryllium-news
+beryllium-govctl
+pacman-contrib
+beryllium-sysconfig
+beryllium-tools
+u-boot-update
+xterm
