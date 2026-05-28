@@ -25,7 +25,7 @@ U_BOOT_IS_SETUP='true'
 #U_BOOT_PROMPT="1"
 #U_BOOT_ENTRIES="all"
 #U_BOOT_MENU_LABEL="Beryllium OS"
-U_BOOT_PARAMETERS="console=ttyFIQ0,1500000n8 console=tty1 rootwait rw init=/sbin/init rootflags=subvol=@ rootfstype=btrfs"
+U_BOOT_PARAMETERS="console=ttyFIQ0,1500000n8 console=tty1 rootwait rw init=/sbin/init rootflags=subvol=@ rootfstype=btrfs quiet splash plymouth.ignore-serial-consoles"
 #U_BOOT_ROOT=""
 #U_BOOT_TIMEOUT="50"
 

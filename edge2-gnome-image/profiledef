@@ -13,7 +13,7 @@ img_backend = "loop"  # loop
 # If you use btrfs you need add `rootflags=subvol=@ rootfstype=btrfs`
 # And remove `rootfstype=ext4`
 
-cmdline = "${bootargs} console=ttyFIQ0,1500000 console=tty0 console=both lcd_panel=${lcd_panel} fan=${fan_mode} rootwait rw init=/sbin/init rootfstype=btrfs rootflags=subvol=@"
+cmdline = "${bootargs} console=ttyFIQ0,1500000 console=tty0 console=both lcd_panel=${lcd_panel} fan=${fan_mode} rootwait rw init=/sbin/init rootfstype=btrfs rootflags=subvol=@ quiet splash plymouth.ignore-serial-consoles"
 
 
 

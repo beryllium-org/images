@@ -15,7 +15,7 @@ boot_set_esp = False
 # If you use btrfs you need add `rootflags=subvol=@ rootfstype=btrfs`
 # And remove `rootfstype=ext4`
 
-cmdline = "${bootargs} console=ttyS0,921600 no_console_suspend earlycon=aml-uart,0xfe078000 loglevel=3 rootwait rw init=/sbin/init rootflags=subvol=@ rootfstype=btrfs"
+cmdline = "${bootargs} console=ttyS0,921600 no_console_suspend earlycon=aml-uart,0xfe078000 loglevel=3 rootwait rw init=/sbin/init rootflags=subvol=@ rootfstype=btrfs quiet splash plymouth.ignore-serial-consoles"
 
 configtxt = """menu background /beryl.bmp
 label Beryllium OS ARM
