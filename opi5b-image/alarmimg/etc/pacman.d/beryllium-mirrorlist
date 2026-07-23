@@ -1,0 +1,4 @@
+# --> Beryllium OS Mirrorlist <-- #
+
+# Beryllium OS Main mirror (Greece)
+Server = https://repo.beryllium.gr/repo/$repo/$arch
