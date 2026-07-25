@@ -1,0 +1,102 @@
+# ====
+# CORE
+# ====
+
+base
+base-devel
+yay
+networkmanager
+firewalld
+network-manager-applet
+nano
+lm_sensors
+archlinux-keyring
+archlinuxarm-keyring
+btrfs-progs
+snapper
+btrfs-assistant
+bluez
+bash
+bash-completion
+beryllium-skel
+sudo
+polkit
+bluez-utils
+#opi5-post-install
+#f2fs-tools
+linux-rockchip-rkr3
+linux-rockchip-rkr3-headers
+dracut
+mesa-panfork-git
+libdrm
+bred-skel-default
+uboot-tools
+#firmware-raspberrypi
+#raspberrypi-bootloader
+linux-firmware
+linux-firmware-whence
+lsb-release
+xf86-video-fbdev
+xorg-server
+beryllium-os-release
+parted
+gvfs
+pipewire-pulse
+#pipewire-media-session
+pipewire-alsa
+pipewire-jack
+beryllium-keyring
+beryllium-logo
+beryllium-zram-defaults
+beryllium-mirrorlist
+dosfstools
+e2fsprogs
+librewolf-bin
+fastfetch
+mali-G610-firmware-rkr4
+# update-extlinux
+blueman
+cpupower
+less
+lshw
+expect
+ap6275p-firmware
+plymouth
+
+# ======
+# BAKERY
+# ======
+
+openbsd-netcat
+bakery
+bakery-gui
+bakery-tui
+python-psutil
+
+# ===
+# GUI
+# ===
+cinnamon
+gnome-terminal
+lightdm
+xorg
+hicolor-icon-theme
+lightdm-slick-greeter
+noto-fonts
+gedit
+gnome-system-monitor
+mint-themes
+mint-y-icons
+# mintlocale
+engrampa
+libmd
+libbsd
+beryllium-multilib
+
+beryllium-sysreport
+beryllium-news
+beryllium-govctl
+pacman-contrib
+beryllium-sysconfig
+beryllium-tools
+xterm
