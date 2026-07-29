@@ -22,8 +22,6 @@ beryllium-skel
 sudo
 polkit
 bluez-utils
-opi5-post-install
-#f2fs-tools
 linux-rockchip-rkr3
 linux-rockchip-rkr3-headers
 dracut
@@ -40,7 +38,6 @@ beryllium-os-release
 parted
 gvfs
 pipewire-pulse
-#pipewire-media-session
 pipewire-alsa
 pipewire-jack
 beryllium-keyring
@@ -52,13 +49,13 @@ e2fsprogs
 librewolf-bin
 fastfetch
 mali-G610-firmware-rkr4
-# update-extlinux
 blueman
 cpupower
 less
 lshw
 expect
 ap6275p-firmware
+u-boot-update
 plymouth
 
 # ======
