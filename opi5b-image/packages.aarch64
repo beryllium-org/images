@@ -31,8 +31,6 @@ mesa-panfork-git
 libdrm
 bred-skel-default
 uboot-tools
-#firmware-raspberrypi
-#raspberrypi-bootloader
 linux-firmware
 linux-firmware-whence
 lsb-release
@@ -87,14 +85,11 @@ gedit
 gnome-system-monitor
 mint-themes
 mint-y-icons
-# mintlocale
 engrampa
 libmd
 libbsd
 beryllium-multilib
 
-grub
-orangepi-5-uefi
 beryllium-sysreport
 beryllium-news
 beryllium-govctl
