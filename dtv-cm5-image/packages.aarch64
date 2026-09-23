@@ -7,6 +7,7 @@ base-devel
 yay
 networkmanager
 firewalld
+firewall-applet
 network-manager-applet
 nano
 lm_sensors
@@ -70,19 +71,12 @@ python-psutil
 # ===
 # GUI
 # ===
-# cinnamon
-# gnome-terminal
+
 lightdm
 xorg
 hicolor-icon-theme
 lightdm-slick-greeter
 noto-fonts
-# gedit
-# gnome-system-monitor
-# mint-themes
-# mint-y-icons
-# mintlocale
-# engrampa
 xfce4
 xfce4-goodies
 grub

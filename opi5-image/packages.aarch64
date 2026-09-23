@@ -7,6 +7,7 @@ base-devel
 yay
 networkmanager
 firewalld
+firewall-applet
 network-manager-applet
 nano
 lm_sensors
@@ -23,7 +24,6 @@ sudo
 polkit
 bluez-utils
 opi5-post-install
-#f2fs-tools
 linux-rockchip-rkr3
 linux-rockchip-rkr3-headers
 dracut
@@ -31,8 +31,6 @@ mesa-panfork-git
 libdrm
 bred-skel-default
 uboot-tools
-#firmware-raspberrypi
-#raspberrypi-bootloader
 linux-firmware
 linux-firmware-whence
 lsb-release
@@ -42,7 +40,6 @@ beryllium-os-release
 parted
 gvfs
 pipewire-pulse
-#pipewire-media-session
 pipewire-alsa
 pipewire-jack
 beryllium-keyring
@@ -54,7 +51,6 @@ e2fsprogs
 librewolf-bin
 fastfetch
 mali-G610-firmware-rkr4
-# update-extlinux
 blueman
 cpupower
 less
@@ -76,6 +72,7 @@ python-psutil
 # ===
 # GUI
 # ===
+
 cinnamon
 gnome-terminal
 lightdm
@@ -87,7 +84,6 @@ gedit
 gnome-system-monitor
 mint-themes
 mint-y-icons
-# mintlocale
 engrampa
 libmd
 libbsd

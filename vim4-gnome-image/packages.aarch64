@@ -7,6 +7,7 @@ base-devel
 yay
 networkmanager
 firewalld
+firewall-applet
 network-manager-applet
 nano
 lm_sensors
@@ -72,6 +73,7 @@ python-psutil
 # ===
 # GUI
 # ===
+
 
 gdm
 gnome-backgrounds

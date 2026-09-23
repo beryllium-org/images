@@ -7,6 +7,7 @@ base-devel
 yay
 networkmanager
 firewalld
+firewall-applet
 network-manager-applet
 nano
 lm_sensors
@@ -28,7 +29,6 @@ linux-vim4
 linux-vim4-headers
 mesa
 libdrm
-# bred-skel-default
 uboot-tools
 linux-firmware
 linux-firmware-whence
@@ -70,6 +70,7 @@ python-psutil
 # ===
 # GUI
 # ===
+
 
 dolphin
 dnsmasq

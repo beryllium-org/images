@@ -20,7 +20,6 @@ beryllium-skel
 sudo
 polkit
 bluez-utils
-#f2fs-tools
 linux-spacemit-k1
 linux-spacemit-k1-headers
 bred-skel-default
@@ -38,7 +37,6 @@ beryllium-mirrorlist
 dosfstools
 e2fsprogs
 neofetch
-# update-extlinux
 cpupower
 less
 lshw

@@ -7,6 +7,7 @@ base-devel
 yay
 networkmanager
 firewalld
+firewall-applet
 network-manager-applet
 nano
 lm_sensors
@@ -23,8 +24,6 @@ sudo
 polkit
 bluez-utils
 edge2-post-install
-# ap6275p-firmware
-# f2fs-tools
 linux-rockchip-rkr3
 linux-rockchip-rkr3-headers
 dracut
@@ -41,7 +40,6 @@ beryllium-os-release
 parted
 gvfs
 pipewire-pulse
-#pipewire-media-session
 pipewire-alsa
 pipewire-jack
 beryllium-keyring
@@ -75,10 +73,9 @@ python-psutil
 # GUI
 # ===
 
+
 gdm
 gnome-backgrounds
-# gnome-books
-# gnome-boxes
 gnome-calculator
 gnome-calendar
 gnome-characters
@@ -93,7 +90,6 @@ gnome-font-viewer
 gnome-getting-started-docs
 gnome-keyring
 gnome-logs
-# gnome-maps
 gnome-menus
 gnome-music
 gnome-remote-desktop
@@ -101,11 +97,9 @@ gnome-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-extensions
-# gnome-software
 gnome-system-monitor
 gnome-text-editor
 gnome-themes-extra
-# gnome-tour
 gnome-user-docs
 gnome-weather
 gnome-tweaks
@@ -116,13 +110,10 @@ seahorse
 vlc
 
 gnome-applets
-# gnome-firmware
 gnome-icon-theme-extras
-# gnome-initial-setup
 gnome-latex
 gnome-panel
 gnome-passwordsafe
-# gnome-pie
 gnome-shell-extension-appindicator
 
 beryllium-multilib

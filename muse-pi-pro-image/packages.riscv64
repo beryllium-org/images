@@ -7,6 +7,7 @@ base-devel
 yay
 networkmanager
 firewalld
+firewall-applet
 network-manager-applet
 nano
 lm_sensors
@@ -22,7 +23,6 @@ sudo
 polkit
 bluez-utils
 mars-post-install
-#f2fs-tools
 linux-spacemit-k1
 linux-spacemit-k1-headers
 mesa
@@ -38,7 +38,6 @@ beryllium-os-release
 parted
 gvfs
 pipewire-pulse
-#pipewire-media-session
 pipewire-alsa
 pipewire-jack
 beryllium-keyring
@@ -49,7 +48,6 @@ dosfstools
 e2fsprogs
 firefox
 neofetch
-# update-extlinux
 blueman
 cpupower
 less
@@ -74,10 +72,9 @@ bakery-tui
 # ===
 # GUI
 # ===
+
 gdm
 gnome-backgrounds
-# gnome-books
-# gnome-boxes
 gnome-calculator
 gnome-calendar
 gnome-characters
@@ -91,7 +88,6 @@ gnome-disk-utility
 gnome-font-viewer
 gnome-keyring
 gnome-logs
-# gnome-maps
 gnome-menus
 gnome-music
 gnome-remote-desktop
@@ -99,11 +95,9 @@ gnome-session
 gnome-settings-daemon
 gnome-shell
 gnome-shell-extensions
-# gnome-software
 gnome-system-monitor
 gnome-text-editor
 gnome-themes-extra
-# gnome-tour
 gnome-user-docs
 gnome-weather
 gnome-tweaks
@@ -114,12 +108,9 @@ seahorse
 vlc
 
 gnome-applets
-# gnome-firmware
-# gnome-initial-setup
 gnome-latex
 gnome-panel
 gnome-passwordsafe
-# gnome-pie
 gnome-shell-extension-appindicator
 
 beryllium-sysreport

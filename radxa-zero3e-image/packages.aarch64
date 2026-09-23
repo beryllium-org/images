@@ -7,6 +7,7 @@ base-devel
 yay
 networkmanager
 firewalld
+firewall-applet
 network-manager-applet
 nano
 lm_sensors
@@ -76,6 +77,7 @@ bakery-tui
 # ===
 # GUI
 # ===
+
 cinnamon
 gnome-terminal
 lightdm

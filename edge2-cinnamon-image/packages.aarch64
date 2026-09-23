@@ -7,6 +7,7 @@ base-devel
 yay
 networkmanager
 firewalld
+firewall-applet
 network-manager-applet
 nano
 lm_sensors
@@ -23,8 +24,6 @@ sudo
 polkit
 bluez-utils
 edge2-post-install
-# ap6275p-firmware
-# f2fs-tools
 linux-rockchip-rkr3
 linux-rockchip-rkr3-headers
 dracut
@@ -41,7 +40,6 @@ beryllium-os-release
 parted
 gvfs
 pipewire-pulse
-#pipewire-media-session
 pipewire-alsa
 pipewire-jack
 beryllium-keyring
@@ -74,6 +72,7 @@ python-psutil
 # ===
 # GUI
 # ===
+
 cinnamon
 gnome-terminal
 lightdm
@@ -85,7 +84,6 @@ gedit
 gnome-system-monitor
 mint-themes
 mint-y-icons
-# mintlocale
 engrampa
 beryllium-multilib
 
