@@ -83,15 +83,12 @@ gnome-clocks
 gnome-color-manager
 gnome-connections
 gnome-console
-gnome-contacts
 gnome-control-center
 gnome-disk-utility
-gnome-font-viewer
 gnome-getting-started-docs
 gnome-keyring
 gnome-logs
 gnome-menus
-gnome-music
 gnome-session
 gnome-settings-daemon
 gnome-shell
@@ -99,10 +96,8 @@ gnome-shell-extensions
 gnome-system-monitor
 gnome-text-editor
 gnome-themes-extra
-gnome-user-docs
 gnome-weather
 gnome-tweaks
-geary
 gnome-notes
 snapshot
 seahorse
