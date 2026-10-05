@@ -93,7 +93,6 @@ gnome-keyring
 gnome-logs
 gnome-menus
 gnome-music
-gnome-remote-desktop
 gnome-session
 gnome-settings-daemon
 gnome-shell
@@ -111,8 +110,6 @@ snapshot
 seahorse
 mpv
 
-gnome-applets
-gnome-latex
 gnome-panel
 gnome-passwordsafe
 gnome-shell-extension-appindicator

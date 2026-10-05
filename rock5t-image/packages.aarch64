@@ -79,13 +79,11 @@ lightdm
 xorg
 hicolor-icon-theme
 lightdm-slick-greeter
-noto-fonts
 gedit
 gnome-system-monitor
 mint-themes
 mint-y-icons
 engrampa
-noto-fonts-cjk
 libmd
 libbsd
 beryllium-multilib

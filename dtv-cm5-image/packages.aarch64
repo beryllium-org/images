@@ -76,11 +76,9 @@ lightdm
 xorg
 hicolor-icon-theme
 lightdm-slick-greeter
-noto-fonts
 xfce4
 xfce4-goodies
 grub
-noto-fonts-cjk
 libmd
 libbsd
 beryllium-sysreport

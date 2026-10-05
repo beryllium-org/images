@@ -46,7 +46,7 @@ beryllium-zram-defaults
 beryllium-mirrorlist
 dosfstools
 e2fsprogs
-firefox
+librewolf
 neofetch
 blueman
 cpupower
@@ -90,7 +90,6 @@ gnome-keyring
 gnome-logs
 gnome-menus
 gnome-music
-gnome-remote-desktop
 gnome-session
 gnome-settings-daemon
 gnome-shell
@@ -107,8 +106,6 @@ snapshot
 seahorse
 vlc
 
-gnome-applets
-gnome-latex
 gnome-panel
 gnome-passwordsafe
 gnome-shell-extension-appindicator

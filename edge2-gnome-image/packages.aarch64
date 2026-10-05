@@ -92,7 +92,6 @@ gnome-keyring
 gnome-logs
 gnome-menus
 gnome-music
-gnome-remote-desktop
 gnome-session
 gnome-settings-daemon
 gnome-shell
@@ -109,9 +108,7 @@ snapshot
 seahorse
 vlc
 
-gnome-applets
 gnome-icon-theme-extras
-gnome-latex
 gnome-panel
 gnome-passwordsafe
 gnome-shell-extension-appindicator
