@@ -24,7 +24,6 @@ polkit
 bluez-utils
 mars-post-install
 linux-spacemit-k1
-linux-spacemit-k1-headers
 mesa
 libdrm
 bred-skel-default

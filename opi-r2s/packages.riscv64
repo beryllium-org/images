@@ -21,7 +21,6 @@ sudo
 polkit
 bluez-utils
 linux-spacemit-k1
-linux-spacemit-k1-headers
 bred-skel-default
 uboot-tools
 linux-firmware
