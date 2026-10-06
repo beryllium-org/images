@@ -59,7 +59,7 @@ jobs:
           fi
 
           if [[ "$BUILD_ARM" == "true" && "$BUILD_RISCV" == "true" ]]; then
-            RELEASE_TITLE="[$TAG_NAME] Beryllium OS Rolling builds"
+            RELEASE_TITLE="[$TAG_NAME] Beryllium OS Rolling builds (ALL)"
           elif [[ "$BUILD_ARM" == "true" ]]; then
             RELEASE_TITLE="[$TAG_NAME] Beryllium OS Rolling builds (ARM)"
           else
