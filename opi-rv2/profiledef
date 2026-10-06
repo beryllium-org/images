@@ -49,11 +49,7 @@ partition_prefix = lambda config_dir, disk: [
      "mkpart", "opensbi", "1MiB", "2MiB",
      "mkpart", "uboot", "2MiB", "4MiB"
     ],
-    ["dd", "if="+ config_dir + "bootinfo_sd.bin", "of="+ disk, "bs=512", "seek=0", "conv=notrunc"],
-    ["dd", "if="+ config_dir + "FSBL.bin","of="+ disk + "p1", "conv=notrunc"],
-    ["dd", "if="+ config_dir + "env.bin", "of="+ disk + "p2", "conv=notrunc"],
-    ["dd", "if="+ config_dir + "fw_dynamic.itb", "of="+ disk + "p3", "conv=notrunc"],
-    ["dd", "if="+ config_dir + "u-boot.itb", "of="+ disk + "p4", "conv=notrunc"]
+    ["dd", "if="+ config_dir + "bootinfo_sd.bin", "of="+ disk, "bs=512", "seek=0", "conv=notrunc"]
 ]
 
 partition_table = lambda img_size, fs: {
@@ -62,7 +58,13 @@ partition_table = lambda img_size, fs: {
     "primary": ["544", "100%", str(int(img_size / 1000) - 544) + "M", fs],
 }
 
+# <disk>pN nodes only exist after the first kpartx in --ci mode, so everything
+# writing to a partition node must run in partition_suffix, never in prefix.
 partition_suffix = lambda config_dir, disk: [
+    ["dd", "if="+ config_dir + "FSBL.bin","of="+ disk + "p1", "conv=notrunc"],
+    ["dd", "if="+ config_dir + "env.bin", "of="+ disk + "p2", "conv=notrunc"],
+    ["dd", "if="+ config_dir + "fw_dynamic.itb", "of="+ disk + "p3", "conv=notrunc"],
+    ["dd", "if="+ config_dir + "u-boot.itb", "of="+ disk + "p4", "conv=notrunc"],
     ["mkfs.fat", "-v", "-F32", "-n", "BOOT", disk + "p5"],
 ]
 
