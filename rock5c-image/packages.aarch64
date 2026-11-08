@@ -23,11 +23,11 @@ beryllium-skel
 sudo
 polkit
 bluez-utils
-linux-rockchip-rkr3
-linux-rockchip-rkr3-headers
+linux
+linux-headers
 dracut
-rock5c-post-install
-mesa-panfork-git
+rock5c-mainline-post-install
+mesa
 libdrm
 bred-skel-default
 uboot-tools
