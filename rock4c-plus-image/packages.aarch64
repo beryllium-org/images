@@ -26,6 +26,7 @@ bluez-utils
 linux
 linux-headers
 mesa
+vulkan-panfrost
 libdrm
 bred-skel-default
 uboot-tools

@@ -28,6 +28,7 @@ linux
 linux-headers
 dracut
 mesa
+vulkan-panfrost
 libdrm
 bred-skel-default
 uboot-tools

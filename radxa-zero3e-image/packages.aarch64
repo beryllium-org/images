@@ -26,6 +26,7 @@ bluez-utils
 linux
 linux-headers
 mesa
+vulkan-panfrost
 libdrm
 dracut
 bred-skel-default

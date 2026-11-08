@@ -28,6 +28,7 @@ linux-headers
 dracut
 rock5c-mainline-post-install
 mesa
+vulkan-panfrost
 libdrm
 bred-skel-default
 uboot-tools

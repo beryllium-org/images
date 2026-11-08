@@ -28,6 +28,7 @@ firmware-vim4
 linux-vim4
 linux-vim4-headers
 mesa
+vulkan-panfrost
 libdrm
 uboot-tools
 linux-firmware

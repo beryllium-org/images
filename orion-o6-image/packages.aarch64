@@ -109,6 +109,7 @@ xterm
 
 
 mesa
+vulkan-panfrost
 mesa-utils
 mesa-vdpau
 mali-G720-firmware
